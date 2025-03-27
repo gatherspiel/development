@@ -34,6 +34,7 @@ For a list of issues recommended for first time contributors, look [here](https:
 - Keep the changes limited to the scope of the issue. If you think it makes sense to update the scope, post a comment on the issue.
 - All code for a feature must be written by a developer. Code written by ChatGPT, GitHub Copilot, Claude Sonnet, or any other generative AI tool cannot be used.
 - If you want to introduce a new technology not listed as part of the tech stack, email gulu@createthirdplaces.com. Include details about the technology and why you think it would be useful. If it is determined that the technology is relevant, you will get a reply back indicating that it can be used.
+- All communication with the backend will be done through API endpoints implemented in the backend repo.
 
 # Suggesting changes
 If you have a recommendation for a new feature, enhancment, or bug fix, create an issue in the development repo. Make sure any issues created follow these guidelines.
