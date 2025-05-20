@@ -4,9 +4,12 @@
 For first time contributors, it is recommended to start with just running the UI. The UI uses mock responses for API endpoints.
 
 After setting up the UI, view the following links to get started.
-- List of recommended issues for first-time contributors [here](https://github.com/Create-Third-Places/DMVBoardGames/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
+- List of recommended issues for first-time contributors [here](https://github.com/Create-Third-Places/DMVBoardGames/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22). The issues
+each have point values representing the estimated complexity. Once you have found an issue you want to work on, post a comment on the issue.
 - Development guidelines [Develpment guidelines](https://github.com/free-gather/development/blob/main/development_guidelines.md)
 
+
+Email gulu@createthirdplaces.com or create an issue in this repo if you notice any areas of improvement in the documentation or code. PRs to improve the documentation are also welcome.
 
 # Set up your local enviornment
 
@@ -66,7 +69,6 @@ sudo docker run --name test-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSW
 
 
 
-Email gulu@createthirdplaces.com or create an issue in this repo if you notice any areas of improvement in the doucments. PRs to improve the documentation are also welcome.
 
 
 
