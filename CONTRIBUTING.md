@@ -1,6 +1,71 @@
-# Development
+# How to contribute
 
-Updated development notes can be viewed [here](https://github.com/Create-Third-Places?view_as=public)
+# Set up your local enviornment
+
+For first time contributors, it is recommended to start with just running the UI. THe UI uses mock responses for API endpoints.
+
+## Set up the UI
+
+### Prerequisties
+
+- Node.js v23.11.0 or a later version.
+- npm v10.9.2 or a later version.
+
+### Starting the UI
+- Clone the [DMVBoardGames repo](git@github.com:free-gather/DMVBoardGames.git)
+- Run the following commands to install dependencies
+
+```
+    npm install
+    npm install --save-dev --save-exact prettier
+    npm run dev
+```
+
+- Navigate to http://localhost:5173. You should see a page with a list of board game groups.
+
+Note: This steps are only necessary if you are working on a backend ticket or you want to use the esarch UI
+## Setting up the backend.
+
+
+### Prerequisties
+
+- OpenJDK 17.0.14
+- [Maven 3.8.7](https://maven.apache.org/install.html) or a later version.
+- [Docker 27.5.1](https://docs.docker.com/engine/install/) or a later version.
+
+
+
+
+### Start a PostgreSQL database
+
+- Download and run a Docker PostgreSQL database with the following environment variables set: POSTGRES_USER=postgres,
+POSTGRES_PASSWORD=postgres
+
+- If you are using a Linux or MacOS development environment, run the following commands to download and run a PostgreSQL database.
+  
+```
+sudo docker pull postgres
+sudo docker system prune
+sudo docker run --name test-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres
+```
+
+- Set the environment variables POSTGRES_USER: postgres, POSTGRES_PASSWORD: postgres. 
+
+### Setup and start the API
+
+- Compile the API using mvn clean package.
+- Make sure the database password is set in your .bashrc file
+
+# Getting started with development
+
+- View the list of recommended issues for first-time contributors [here](List of issues recommended for first time contributors: [here](https://github.com/Create-Third-Places/DMVBoardGames/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22))
+- View the development guidelines for more information about getting started with an issue: [Develpment guidelines](https://github.com/free-gather/development/blob/main/development_guidelines.md)
+
+
+
+Email gulu@createthirdplaces.com or create an issue in this repo if you notice any areas of improvement in the doucments. PRs to improve the documentation are also welcome.
+
+
 
 
 
