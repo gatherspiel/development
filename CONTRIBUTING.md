@@ -59,7 +59,7 @@ sudo docker run --name test-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSW
 
 # Getting started with development
 
-- View the list of recommended issues for first-time contributors [here](List of issues recommended for first time contributors: [here](https://github.com/Create-Third-Places/DMVBoardGames/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22))
+- View the list of recommended issues for first-time contributors [here](https://github.com/Create-Third-Places/DMVBoardGames/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
 - View the development guidelines for more information about getting started with an issue: [Develpment guidelines](https://github.com/free-gather/development/blob/main/development_guidelines.md)
 
 
