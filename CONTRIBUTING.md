@@ -12,7 +12,7 @@ For first time contributors, it is recommended to start with just running the UI
 - npm v10.9.2 or a later version.
 
 ### Starting the UI
-- Clone the [DMVBoardGames repo](git@github.com:free-gather/DMVBoardGames.git)
+- Clone the [DMVBoardGames repo](https://github.com/free-gather/DMVBoardGames)
 - Run the following commands to install dependencies
 
 ```
