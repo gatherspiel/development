@@ -1,8 +1,15 @@
 # How to contribute
 
-# Set up your local enviornment
 
 For first time contributors, it is recommended to start with just running the UI. The UI uses mock responses for API endpoints.
+
+After setting up the UI, view the following links to get started.
+- List of recommended issues for first-time contributors [here](https://github.com/Create-Third-Places/DMVBoardGames/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
+- Development guidelines [Develpment guidelines](https://github.com/free-gather/development/blob/main/development_guidelines.md)
+
+
+# Set up your local enviornment
+
 
 ## Set up the UI
 
@@ -56,11 +63,6 @@ sudo docker run --name test-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSW
 - Update the database connection configuration to use the Postgres database that was started [here](https://github.com/free-gather/backend/blob/main/src/main/java/database/utils/ConnectionProvider.java). Note: There is an issue to make sure an enviornment variable is used instead of manually modifying soruce code: https://github.com/free-gather/backend/issues/94
 - Start the API using `java -jar target/app.jar`.
   
-
-# Getting started with development
-
-- View the list of recommended issues for first-time contributors [here](https://github.com/Create-Third-Places/DMVBoardGames/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
-- View the development guidelines for more information about getting started with an issue: [Develpment guidelines](https://github.com/free-gather/development/blob/main/development_guidelines.md)
 
 
 
