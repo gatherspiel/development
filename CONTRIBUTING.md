@@ -2,7 +2,7 @@
 
 # Set up your local enviornment
 
-For first time contributors, it is recommended to start with just running the UI. THe UI uses mock responses for API endpoints.
+For first time contributors, it is recommended to start with just running the UI. The UI uses mock responses for API endpoints.
 
 ## Set up the UI
 
@@ -34,8 +34,6 @@ Note: This steps are only necessary if you are working on a backend ticket or yo
 - [Docker 27.5.1](https://docs.docker.com/engine/install/) or a later version.
 
 
-
-
 ### Start a PostgreSQL database
 
 - Download and run a Docker PostgreSQL database with the following environment variables set: POSTGRES_USER=postgres,
@@ -55,6 +53,9 @@ sudo docker run --name test-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSW
 
 - Compile the API using mvn clean package.
 - Make sure the database password is set in your .bashrc file
+- Update the database connection configuration to use the Postgres database that was started [here](https://github.com/free-gather/backend/blob/main/src/main/java/database/utils/ConnectionProvider.java). Note: There is an issue to make sure an enviornment variable is used instead of manually modifying soruce code: https://github.com/free-gather/backend/issues/94
+- Start the API using `java -jar target/app.jar`.
+  
 
 # Getting started with development
 
