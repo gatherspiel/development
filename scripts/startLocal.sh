@@ -6,3 +6,5 @@ gnome-terminal -- bash -c "git checkout main; git pull origin main --no-rebase; 
 
 cd ../backend
 gnome-terminal -- bash -c "mvn clean package -DskipTests; java -jar target/app.jar; exec bash"
+
+export AUTH_URL='http://localhost:54321/auth/v1/'
