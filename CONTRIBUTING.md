@@ -18,11 +18,11 @@ Email gulu@createthirdplaces.com or create an issue in this repo if you notice a
 
 ### Prerequisties
 
-- Node.js v23.11.0 or a later version.
+- Node.js v22.17.0 or a later version.
 - npm v10.9.2 or a later version.
 
 ### Starting the UI
-- Clone the [DMVBoardGames repo](https://github.com/free-gather/DMVBoardGames)
+- Fork the [DMVBoardGames repo](https://github.com/gatherspiel/DMVBoardGames)
 - Run the following commands to install dependencies
 
 ```
@@ -33,39 +33,10 @@ Email gulu@createthirdplaces.com or create an issue in this repo if you notice a
 
 - Navigate to http://localhost:5173. You should see a page with a list of board game groups.
 
-Note: This steps are only necessary if you are working on a backend ticket or you want to use the esarch UI
+Note: This steps are only necessary if you are working on a backend ticket or you are working with backend data
 ## Setting up the backend.
 
-
-### Prerequisties
-
-- OpenJDK 17.0.14
-- [Maven 3.8.7](https://maven.apache.org/install.html) or a later version.
-- [Docker 27.5.1](https://docs.docker.com/engine/install/) or a later version.
-
-
-### Start a PostgreSQL database
-
-- Download and run a Docker PostgreSQL database with the following environment variables set: POSTGRES_USER=postgres,
-POSTGRES_PASSWORD=postgres
-
-- If you are using a Linux or MacOS development environment, run the following commands to download and run a PostgreSQL database.
-  
-```
-sudo docker pull postgres
-sudo docker system prune
-sudo docker run --name test-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres
-```
-
-- Set the environment variables POSTGRES_USER: postgres, POSTGRES_PASSWORD: postgres. 
-
-### Setup and start the API
-
-- Compile the API using mvn clean package.
-- Make sure the database password is set in your .bashrc file
-- Update the database connection configuration to use the Postgres database that was started [here](https://github.com/free-gather/backend/blob/main/src/main/java/database/utils/ConnectionProvider.java). Note: There is an issue to make sure an enviornment variable is used instead of manually modifying soruce code: https://github.com/free-gather/backend/issues/94
-- Start the API using `java -jar target/app.jar`.
-  
+See the following README file to setup the backend: [Backend setup](https://github.com/gatherspiel/backend)
 
 
 
