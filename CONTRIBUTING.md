@@ -31,9 +31,6 @@ Email gulu@createthirdplaces.com or create an issue in this repo if you notice a
     npm run dev
 ```
 
-- Navigate to http://localhost:5173. You should see a page with a list of board game groups.
-
-Note: This steps are only necessary if you are working on a backend ticket or you are working with backend data
 ## Setting up the backend.
 
 See the following README file to setup the backend: [Backend setup](https://github.com/gatherspiel/backend)
