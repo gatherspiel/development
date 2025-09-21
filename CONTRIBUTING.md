@@ -19,7 +19,7 @@ Email gulu@createthirdplaces.com or create an issue in this repo if you notice a
 
 ### Starting the UI
 - Fork the [DMVBoardGames repo](https://github.com/gatherspiel/DMVBoardGames)
-- Run the following commands to install dependencies
+- Run the following commands to install dependencies.
 
 ```
     npm install
