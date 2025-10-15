@@ -23,7 +23,7 @@ If you have a recommendation for a new feature, enhancement, or bug fix, create 
 ### Guidelines for integrating with additional tools
 
 - Changes should not involve communicating with generative AI or machine learning tools.
-- Unless it's primary goal is in person integration, there should be no communication with social media platforms. This includes links.
+- Unless it's primary goal is in person interaction, there should be no communication with social media platforms. This includes links.
   
 # Guidelines for architecture
 
