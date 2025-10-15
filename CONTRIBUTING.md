@@ -2,7 +2,7 @@
 
 - Setup a local environment using the instructions below. If an issue is labelled "UI Only", then only the UI needs to be setup. Otherwise, the backend also needs to be setup.
 - Read the [development guidelines](https://github.com/free-gather/development/blob/main/development_guidelines.md)
--Post a comment on an issue that you want to work on. Mention that you have a local enviornment setup and have read the development guidelines.
+- Post a comment on an issue that you want to work on. Mention that you have a local enviornment setup and have read the development guidelines.
 - Here is a list of recommended issues for first-time contributors [here](https://github.com/Create-Third-Places/DMVBoardGames/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22). The issues
 each have point values representing the estimated complexity.
 
